@@ -3,9 +3,12 @@ import React, {Component} from 'react';
 export default class SearchUser extends Component{
     state = {name:''} //storing name in local state 
 
-    handleSubmit(event){
+    handleSubmit = (event) => {
         event.preventDefault()
-        console.log(`Submitting form with the name ${this.state.name}`) 
+        console.log(`Fetching ${this.state.name}'s details`)
+        fetch( `https://api.github.com/users/${this.state.name}`)
+            .then(response => {return response.json()})
+            .then(unpack => {console.log(unpack)})
     }
 
     handleChange = (event) => {
