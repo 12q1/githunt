@@ -6,7 +6,7 @@ You can also download it locally and initialize it with 'yarn start'.
 
 Primary search queries are made by fetching data from Github's search api. Please keep in mind that Github's public api has relatively strict rate limits.
 
-More user details are fetched again from Githubs /users endpoint once a selection has been made. Links to the user's gists, repository and profile are also generated at this point. 
+More user details are fetched again from Github's /users endpoint once a selection has been made. Links to the user's gists, repository and profile are also generated at this point. 
 
 This project was made for Zaaksysteem.nl as part of their application process.
 
