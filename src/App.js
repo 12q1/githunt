@@ -19,12 +19,12 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="details">
-            <UserDetailsContainer />
-          </div>
-
           <div className="list">
             <UserListContainer />
+          </div>
+
+          <div className="details">
+            <UserDetailsContainer />
           </div>
 
         </main>

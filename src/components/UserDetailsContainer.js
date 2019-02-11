@@ -10,6 +10,7 @@ class UserDetailsContainer extends React.Component {
         if (this.props.user !== prevProps.user) {
             request(`https://api.github.com/users/${this.props.user.login}`)
                 .then(response => this.setState({ details: response.body }))
+                .catch(console.log('error: github public api rate limit reached'))
         }
     }
 
