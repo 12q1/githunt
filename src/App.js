@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import SearchForm from './components/SearchForm'
+import SearchFormContainer from './components/SearchFormContainer'
 import UserListContainer from './components/UserListContainer'
 import UserDetailsContainer from './components/UserDetailsContainer';
 
@@ -11,7 +11,7 @@ class App extends Component {
         <main>
           <h1>Githunt</h1>
           <p>Search for Github users</p>
-          <SearchForm />
+          <SearchFormContainer />
           <UserDetailsContainer />
           <UserListContainer />
 
