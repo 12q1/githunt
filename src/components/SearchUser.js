@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 export default class SearchUser extends Component {
     state = { name: '' } //storing name in local state 

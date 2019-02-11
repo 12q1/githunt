@@ -11,10 +11,10 @@ class App extends Component {
         <main>
           <h1>Githunt</h1>
           <p>Search for Github users</p>
-          <SearchUser/>
-          <UserDetailsContainer/>
-          <UserListContainer/>
-          
+          <SearchUser />
+          <UserDetailsContainer />
+          <UserListContainer />
+
         </main>
 
       </div>

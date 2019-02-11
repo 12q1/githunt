@@ -1,6 +1,6 @@
 import * as React from 'react'
 import UserList from './UserList'
-import {connect} from 'react-redux'
+import { connect } from 'react-redux'
 
 class UserListContainer extends React.Component {
     selectUser = (id) => {
@@ -13,13 +13,13 @@ class UserListContainer extends React.Component {
 
     }
 
-    render(){
+    render() {
         return <UserList users={this.props.users} selectUser={this.selectUser} />
     }
 }
 
 const mapStateToProps = (state) => {
-    return{
+    return {
         users: state.users
     }
 }
