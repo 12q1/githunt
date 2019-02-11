@@ -5,7 +5,7 @@ import request from 'superagent'
 
 export default class SearchFormContainer extends React.Component {
     submit = value => {
-        request(`https://api.github.com/search/users?per_page=100&page=1&q=${value.username}`)
+        request(`https://api.github.com/search/users?per_page=50&page=1&q=${value.username}`)
             .then(response => store.dispatch(
                 {
                     type: 'SEARCH_USER',

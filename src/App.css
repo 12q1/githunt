@@ -1,18 +1,46 @@
-.topbar {
-  text-align: center;
+body {
   background-color: #282c34;
-  display: flex;
-  flex-direction: row;
   color: white;
 }
 
+.topbar {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  color: greenyellow;
+  margin-top: -10px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.blurb {
+  margin-top: -45px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+.search input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: -68px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
 a {
-  color: #61dafb;
+  color: greenyellow
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
   margin: 0;
-  color: grey;
+  color: white;
+}
+
+.list {
+  padding: 10px;
+  margin-top: -35px;
 }

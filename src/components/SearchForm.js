@@ -10,7 +10,7 @@ let SearchForm = props => {
                     name="username"
                     component="input"
                     type="text" 
-                    placeholder="username eg. 12q1"
+                    placeholder="Search... eg. 12q1"
                 />
             </div>
         </form>

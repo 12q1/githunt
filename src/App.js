@@ -12,19 +12,21 @@ class App extends Component {
         <main>
 
           <div className="topbar">
-            <h1>Githunt</h1>
-            <p>Search for Github users</p>
-            <SearchFormContainer />
+            <h1 className="title">Githunt</h1>
+            <p className="blurb">Search for Github users</p>
+            <div className="search">
+              <SearchFormContainer />
+            </div>
           </div>
 
-          <div className="Details">
+          <div className="details">
             <UserDetailsContainer />
           </div>
 
-          <div>
+          <div className="list">
             <UserListContainer />
           </div>
-          
+
         </main>
 
       </div>
