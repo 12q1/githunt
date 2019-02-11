@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import SearchUser from './components/SearchUser'
-import DetailContainer from './components/DetailContainer'
+import UserListContainer from './components/UserListContainer'
+import UserDetailsContainer from './components/UserDetailsContainer';
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
           <h1>Githunt</h1>
           <p>Please type the Github username of the person you are looking for.</p>
           <SearchUser/>
-          <DetailContainer/>
+          <UserListContainer/>
+          <UserDetailsContainer/>
         </main>
 
       </div>
