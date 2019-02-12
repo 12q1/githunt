@@ -9,11 +9,15 @@ let SearchForm = props => {
                 <Field
                     name="username"
                     component="input"
-                    type="text" 
-                    placeholder="Search... eg. 12q1"
+                    type="text"
+                    placeholder="Search... (eg. 12q1)"
                 />
             </div>
+            <div>
+                <button onClick={handleSubmit} className="searchbutton">Go!</button>
+            </div>
         </form>
+
     )
 }
 

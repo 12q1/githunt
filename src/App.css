@@ -26,7 +26,7 @@ body {
   padding: 6px;
   border: none;
   margin-top: -68px;
-  margin-right: 16px;
+  margin-right: 60px;
   font-size: 17px;
 }
 
@@ -55,4 +55,11 @@ li:hover{
   top: 50px;
   left: 200px;
   position: absolute;
+}
+
+.searchbutton{
+  float: right;
+  margin-right: 30px;
+  margin-top: -69px;
+  padding: 7px;
 }

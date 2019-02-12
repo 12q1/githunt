@@ -4,7 +4,7 @@ export default function UserDetails(props) {
     const user = props.user
     console.log(props.user)
     return (
-        <div classname="Contacts">
+        <div className="Contacts">
             <h3>{user.login}</h3>
             <img src={user.avatar_url} alt="user avatar" height="200"></img>
             <p>Email: {user.email || "not publicly available"}</p>
