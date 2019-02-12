@@ -2,7 +2,6 @@ import * as React from 'react'
 import { connect } from 'react-redux'
 import UserDetails from './UserDetails'
 import request from 'superagent'
-import { isNullOrUndefined } from 'util';
 
 class UserDetailsContainer extends React.Component {
     state = {}
