@@ -7,6 +7,7 @@ class UserDetailsContainer extends React.Component {
     state = {}
 
     componentDidUpdate(prevProps) {
+        if (this.props.user === undefined) return null
         if (this.props.user !== prevProps.user) {
             request(`https://api.github.com/users/${this.props.user.login}`)
                 .then(response => this.setState({ details: response.body }))
