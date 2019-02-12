@@ -13,9 +13,6 @@ class UserDetailsContainer extends React.Component {
         }
     }
 
-    componentWillUnmount(){
-    }
-
     render() {
         const user = this.state.details
         if (!user) return null
