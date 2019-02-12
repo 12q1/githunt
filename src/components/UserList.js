@@ -7,7 +7,7 @@ export default function UserList(props) {
             <ul>
                 {props.users.map(user =>
                     <li key={user.id} onClick={() => props.selectUser(user.id)}>
-                        {user.login}
+                        <img src={user.avatar_url} alt="user avatar" height="20"></img> {user.login}
                     </li>
                 )}
             </ul>
