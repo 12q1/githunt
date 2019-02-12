@@ -20,7 +20,6 @@ class UserDetailsContainer extends React.Component {
         const user = this.state.details
         if (!user) return null
         return <UserDetails user={user} />
-        console.log(user)
     }
 }
 
