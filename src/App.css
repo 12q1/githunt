@@ -54,8 +54,9 @@ li:hover{
   padding: 10px;
   justify-content: center;
   top: 50px;
-  left: 200px;
+  left: 270px;
   position: absolute;
+  text-align: center;
 }
 
 .searchbutton{
