@@ -51,7 +51,6 @@ li:hover{
 
 .details{
   padding: 10px;
-  /* justify-content: center; */
   top: 50px;
   left: 270px;
   position: fixed;
@@ -69,8 +68,22 @@ li:hover{
   margin-left: 250px;
   margin-top: -415px;
   text-align: left;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width: 1px;
+
 }
 
 .userlist{
   z-index: 2;
+}
+
+.profilepic{
+  background-color: gray;
+  border-style: solid;
+  border-color: gray;
+}
+
+.repotitle{
+  margin-left: 20px;
 }
