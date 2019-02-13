@@ -68,9 +68,10 @@ li:hover{
   margin-left: 250px;
   margin-top: -415px;
   text-align: left;
-  padding: 10px;
+  padding: 0px;
   border-left-style: solid;
   border-left-width: 1px;
+  border-color: gray;
 
 }
 
