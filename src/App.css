@@ -36,7 +36,6 @@ a {
 
 ul {
   list-style-type: square;
-  margin: 0;
   color: white;
 }
 
@@ -52,11 +51,11 @@ li:hover{
 
 .details{
   padding: 10px;
-  justify-content: center;
+  /* justify-content: center; */
   top: 50px;
   left: 270px;
   position: fixed;
-  text-align: center;
+  text-align: left;
 }
 
 .searchbutton{
@@ -64,4 +63,14 @@ li:hover{
   margin-right: 30px;
   margin-top: -69px;
   padding: 7px;
+}
+
+.repos{
+  margin-left: 250px;
+  margin-top: -415px;
+  text-align: left;
+}
+
+.userlist{
+  z-index: 2;
 }
