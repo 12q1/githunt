@@ -11,13 +11,16 @@ class UserDetailsContainer extends React.Component {
         if (this.props.user !== prevProps.user) {
             request(`https://api.github.com/users/${this.props.user.login}`)
                 .then(response => this.setState({ details: response.body }))
+            request(`https://api.github.com/users/${this.props.user.login}/repos?per_page=8&sort=pushed`)
+                .then(response => this.setState({ repos: response.body }))
         }
     }
 
     render() {
         const user = this.state.details
-        if (!user) return null
-        return <UserDetails user={user} />
+        const repos = this.state.repos
+        if (!user || !repos) return null
+        return <UserDetails user={user} repo={repos} />
     }
 }
 
